@@ -30,10 +30,10 @@ def main():
                             );"""
     conn = create_connection(database)
 
-    # if conn is not None:
-    #     create_table(conn, create_statement)
-    # else:
-    #     print("Error! Cannot connect to the database")
+    if conn is not None:
+       reate_table(conn, create_statement)
+    else:
+       print("Error! Cannot connect to the database")
 
     # Create a cursor object so we can execute SQL queries
 
