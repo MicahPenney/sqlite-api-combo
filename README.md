@@ -8,5 +8,6 @@ The documentation and API can be found here https://catfact.ninja/
 The structure of the single table database looks like the following:
 | id             | fact         | rating       |
 | :------------- | :----------: | -----------: |
-|integer (auto increments)| text   | integer   \|
+|integer (auto increments)| text   | integer   |
+
 The rating will not come from the API that we are using, but we may be building a simple flask website in the future that we can rate the facts ourselves.
